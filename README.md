@@ -1,27 +1,62 @@
 ### VS Code extensions
 
 **[cmake-link-explorer](https://github.com/Ruminem/cmake-link-explorer)**
-What links what in a CMake project, in both directions — including who links a
-given target. Reads CMake's File API rather than parsing `CMakeLists.txt`, and
-joins a linker map onto the target tree so the size of each one is on the same row.
+For the moments a CMake project stops you over linking: what to link to use a
+header, who links a given target, what is eating the binary size and the build
+time, and which macros a file is really compiled with. Reads what CMake's File
+API, the linker map and ninja's build log already hold rather than parsing
+`CMakeLists.txt`.
+
+**[vscode-assist](https://github.com/Ruminem/vscode-assist)**
+Navigation shortcuts VS Code does not ship, bound to keys it does not use. The
+main one is a round trip: `Alt+G` on a declaration goes to the definition and
+back again, with overrides and base virtuals in C++.
 
 **[vscode-neon-glow](https://github.com/Ruminem/vscode-neon-glow)**
 Neon glow for syntax highlighting that derives itself from the active theme's own
 token colours, so it works with whatever colour theme is already in use.
 
-Both are plain JavaScript with no build step and no dependencies.
+All three are plain JavaScript with no build step and no dependencies.
+
+### Other
+
+**[kakaotalk-theme](https://github.com/Ruminem/kakaotalk-theme)**
+KakaoTalk themes for iOS (`.ktheme`) and Android (`.apk`). Every colour lives in
+one palette table, and the CSS, `colors.xml`, images and previews are all
+generated from it.
+
+**[hdr-auto-toggle](https://github.com/Ruminem/hdr-auto-toggle)**
+A PowerShell script that turns Windows HDR on while a registered game has a
+window open and off once they are all closed, so screenshots outside games do
+not bloom.
 
 ---
 
 ### VS Code 익스텐션
 
 **[cmake-link-explorer](https://github.com/Ruminem/cmake-link-explorer)** —
-CMake 프로젝트에서 무엇이 무엇을 링크하는지 양방향으로 봄. 특히 **누가 이 타겟을
-링크하는지**. `CMakeLists.txt`를 파싱하지 않고 CMake의 File API를 읽음. 링커 맵을
-타겟 트리에 붙여 크기를 같은 줄에 얹어줌.
+CMake 프로젝트에서 링크 때문에 막힐 때 씀. 이 헤더를 쓰려면 무엇을 링크해야 하는지,
+**누가 이 타겟을 링크하는지**, 바이너리 크기와 빌드 시간을 무엇이 잡아먹는지, 이
+파일이 실제로 어떤 매크로로 컴파일되는지 보여줌. `CMakeLists.txt`를 파싱하지 않고
+CMake File API·링커 맵·ninja 빌드 로그에 이미 있는 것을 읽음.
+
+**[vscode-assist](https://github.com/Ruminem/vscode-assist)** —
+VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵심은 왕복 이동 —
+선언에서 `Alt+G`를 누르면 정의로, 다시 누르면 선언으로 돌아옴. C++에서는 오버라이드와
+베이스 가상 함수까지 챙김.
 
 **[vscode-neon-glow](https://github.com/Ruminem/vscode-neon-glow)** —
 문법 강조에 네온 글로우를 입힘. 팔레트를 박아두지 않고 **지금 쓰는 테마의 토큰
 색에서 글로우를 유도**하므로 어떤 색 테마와도 맞음.
 
-둘 다 순수 JavaScript고 빌드 단계도 의존성도 없음.
+셋 다 순수 JavaScript고 빌드 단계도 의존성도 없음.
+
+### 그 밖에
+
+**[kakaotalk-theme](https://github.com/Ruminem/kakaotalk-theme)** —
+iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 표 한 곳에서만
+관리하고 CSS·`colors.xml`·이미지·미리보기가 전부 거기서 생성됨.
+
+**[hdr-auto-toggle](https://github.com/Ruminem/hdr-auto-toggle)** —
+등록한 게임 창이 열리면 Windows HDR을 켜고 모두 닫히면 다시 끄는 PowerShell
+스크립트. 게임 밖에서 캡처할 때 밝은 부분이 번지지 않게 함.
