@@ -44,7 +44,8 @@ setup. The cursors are drawn as text and built with the Python standard library.
 **[vsx-tools](https://github.com/Ruminem/vsx-tools)**
 For keeping several home-made VS Code extensions in step: one table shows each
 one's version, installed version and git state, and one command builds and
-installs them all. A single Node script with no dependencies.
+installs them all. A single Node script with no dependencies, plus an
+[install page](https://ruminem.github.io/vsx-tools/) for setting up a new machine.
 
 ---
 
@@ -91,3 +92,4 @@ iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 �
 **[vsx-tools](https://github.com/Ruminem/vsx-tools)** —
 직접 만든 VS Code 확장 여러 개를 함께 관리할 때 씀. 확장마다 버전, 설치된 버전, git
 상태를 한 표로 보여주고 명령 하나로 전부 빌드·설치함. 의존성 없는 Node 스크립트 하나.
+새 PC 에서는 [설치 페이지](https://ruminem.github.io/vsx-tools/)에서 버튼으로 설치함.
