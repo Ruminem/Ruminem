@@ -38,8 +38,10 @@ not bloom.
 **[cursor-playground](https://github.com/Ruminem/cursor-playground)**
 For dressing up the Windows mouse pointer: 60 pixel-art pointer schemes, 10 animated
 ones included. Try them as your cursor on a [preview page](https://ruminem.github.io/cursor-playground/win-cursor/preview.html),
-then apply one to Windows, resize it or roll back with a button after a one-line
-setup. The cursors are drawn as text and built with the Python standard library.
+then recolour it with a hue slider and apply it to Windows, resize it or roll back
+with a button after a one-line setup. Also has a pixel cat that follows the cursor
+around the desktop and falls asleep when it stops. Everything is drawn as text and
+built with the Python standard library.
 
 **[vsx-tools](https://github.com/Ruminem/vsx-tools)**
 For keeping several home-made VS Code extensions in step: one table shows each
@@ -86,8 +88,9 @@ iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 �
 **[cursor-playground](https://github.com/Ruminem/cursor-playground)** —
 윈도우 마우스 포인터를 꾸밀 때 씀. 움직이는 커서 10종을 포함한 픽셀아트 포인터 구성표
 60종. [시안 페이지](https://ruminem.github.io/cursor-playground/win-cursor/preview.html)에서
-커서로 먼저 써 보고, 한 줄 설치 뒤 버튼으로 윈도우에 적용·크기 조정·원래대로를 함.
-커서는 텍스트로 그리고 Python 표준 라이브러리로 만듦.
+커서로 먼저 써 보고, 색조 슬라이더로 색을 바꾼 뒤 한 줄 설치 뒤 버튼으로 윈도우에
+적용·크기 조정·원래대로를 함. 바탕화면에서 커서를 따라다니다 멈추면 잠드는 픽셀 고양이도
+있음. 전부 텍스트로 그리고 Python 표준 라이브러리로 만듦.
 
 **[vsx-tools](https://github.com/Ruminem/vsx-tools)** —
 직접 만든 VS Code 확장 여러 개를 함께 관리할 때 씀. 확장마다 버전, 설치된 버전, git
