@@ -7,6 +7,11 @@ time, and which macros a file is really compiled with. Reads what CMake's File
 API, the linker map and ninja's build log already hold rather than parsing
 `CMakeLists.txt`.
 
+**[hover-decode](https://github.com/Ruminem/hover-decode)**
+For the values in code and logs that mean nothing at a glance: hover over an epoch
+timestamp, a hex number, a base64 string or an HTTP status code to see what it is.
+Your own terms go in a personal dictionary that lives outside any repository.
+
 **[vscode-assist](https://github.com/Ruminem/vscode-assist)**
 Navigation shortcuts VS Code does not ship, bound to keys it does not use. The
 main one is a round trip: `Alt+G` on a declaration goes to the definition and
@@ -16,7 +21,7 @@ back again, with overrides and base virtuals in C++.
 Neon glow for syntax highlighting that derives itself from the active theme's own
 token colours, so it works with whatever colour theme is already in use.
 
-All three are plain JavaScript with no build step and no dependencies.
+All four are plain JavaScript with no build step and no dependencies.
 
 ### Other
 
@@ -40,6 +45,11 @@ CMake 프로젝트에서 링크 때문에 막힐 때 씀. 이 헤더를 쓰려�
 파일이 실제로 어떤 매크로로 컴파일되는지 보여줌. `CMakeLists.txt`를 파싱하지 않고
 CMake File API·링커 맵·ninja 빌드 로그에 이미 있는 것을 읽음.
 
+**[hover-decode](https://github.com/Ruminem/hover-decode)** —
+코드나 로그에서 한눈에 뜻을 알 수 없는 값을 볼 때 씀. epoch 타임스탬프, 16진수,
+base64 문자열, HTTP 상태 코드에 마우스를 올리면 그게 무엇인지 보여줌. 내 용어는
+저장소 밖에 있는 개인 사전에 넣어 둠.
+
 **[vscode-assist](https://github.com/Ruminem/vscode-assist)** —
 VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵심은 왕복 이동 —
 선언에서 `Alt+G`를 누르면 정의로, 다시 누르면 선언으로 돌아옴. C++에서는 오버라이드와
@@ -49,7 +59,7 @@ VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵�
 문법 강조에 네온 글로우를 입힘. 팔레트를 박아두지 않고 **지금 쓰는 테마의 토큰
 색에서 글로우를 유도**하므로 어떤 색 테마와도 맞음.
 
-셋 다 순수 JavaScript고 빌드 단계도 의존성도 없음.
+넷 다 순수 JavaScript고 빌드 단계도 의존성도 없음.
 
 ### 그 밖에
 
