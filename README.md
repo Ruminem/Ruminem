@@ -88,7 +88,7 @@ iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 �
 **[cursor-playground](https://github.com/Ruminem/cursor-playground)** —
 윈도우 마우스 포인터를 꾸밀 때 씀. 움직이는 커서 10종을 포함한 픽셀아트 포인터 구성표
 60종. [시안 페이지](https://ruminem.github.io/cursor-playground/win-cursor/preview.html)에서
-커서로 먼저 써 보고, 색조 슬라이더로 색을 바꾼 뒤 한 줄 설치 뒤 버튼으로 윈도우에
+커서로 먼저 써 보고 색조 슬라이더로 색도 바꿈. 한 줄 설치해 두면 버튼으로 윈도우에
 적용·크기 조정·원래대로를 함. 바탕화면에서 커서를 따라다니다 멈추면 잠드는 픽셀 고양이도
 있음. 전부 텍스트로 그리고 Python 표준 라이브러리로 만듦.
 
