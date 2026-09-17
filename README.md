@@ -36,7 +36,7 @@ window open and off once they are all closed, so screenshots outside games do
 not bloom.
 
 **[cursor-playground](https://github.com/Ruminem/cursor-playground)**
-For dressing up the Windows mouse pointer: 55 pixel-art pointer schemes, animated
+For dressing up the Windows mouse pointer: 60 pixel-art pointer schemes, 10 animated
 ones included. Try them as your cursor on a [preview page](https://ruminem.github.io/cursor-playground/win-cursor/preview.html),
 then apply one to Windows, resize it or roll back with a button after a one-line
 setup. The cursors are drawn as text and built with the Python standard library.
@@ -84,8 +84,8 @@ iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 �
 스크립트. 게임 밖에서 캡처할 때 밝은 부분이 번지지 않게 함.
 
 **[cursor-playground](https://github.com/Ruminem/cursor-playground)** —
-윈도우 마우스 포인터를 꾸밀 때 씀. 움직이는 커서를 포함한 픽셀아트 포인터 구성표
-55종. [시안 페이지](https://ruminem.github.io/cursor-playground/win-cursor/preview.html)에서
+윈도우 마우스 포인터를 꾸밀 때 씀. 움직이는 커서 10종을 포함한 픽셀아트 포인터 구성표
+60종. [시안 페이지](https://ruminem.github.io/cursor-playground/win-cursor/preview.html)에서
 커서로 먼저 써 보고, 한 줄 설치 뒤 버튼으로 윈도우에 적용·크기 조정·원래대로를 함.
 커서는 텍스트로 그리고 Python 표준 라이브러리로 만듦.
 
