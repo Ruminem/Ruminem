@@ -44,7 +44,9 @@ All six are plain JavaScript with no build step and no dependencies.
 **[kakaotalk-theme](https://github.com/Ruminem/kakaotalk-theme)**
 KakaoTalk themes for iOS (`.ktheme`) and Android (`.apk`). Every colour lives in
 one palette table, and the CSS, `colors.xml`, images and previews are all
-generated from it.
+generated from it. A page on the site mixes a background from one theme with
+bubbles from another and builds the file on the phone, signing the Android APK
+in the browser.
 
 **[hdr-auto-toggle](https://github.com/Ruminem/hdr-auto-toggle)**
 A PowerShell script that turns Windows HDR on while a registered game has a
@@ -110,7 +112,9 @@ VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵�
 
 **[kakaotalk-theme](https://github.com/Ruminem/kakaotalk-theme)** —
 iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 표 한 곳에서만
-관리하고 CSS·`colors.xml`·이미지·미리보기가 전부 거기서 생성됨.
+관리하고 CSS·`colors.xml`·이미지·미리보기가 전부 거기서 생성됨. 배경과 말풍선을
+다른 테마에서 골라 섞는 페이지가 있고, 안드로이드 APK 서명까지 브라우저에서 해서
+폰에서 바로 만들어짐.
 
 **[hdr-auto-toggle](https://github.com/Ruminem/hdr-auto-toggle)** —
 등록한 게임 창이 열리면 Windows HDR을 켜고 모두 닫히면 다시 끄는 PowerShell
