@@ -15,6 +15,13 @@ terminal gets the same rows through link tooltips. Your own terms go in a person
 dictionary that lives outside any repository, your team's in one committed with the
 project.
 
+**[native-toolbelt](https://github.com/Ruminem/native-toolbelt)**
+For the native build that runs on your machine and nowhere else: it reads an `.exe` or
+`.dll` and says which DLLs it needs, where Windows would find each one, and which ones
+it would not find at all. Delay-loaded imports count too, and a DLL sitting next to the
+binary but off the search path is named with its path. The list comes out of the PE file
+itself, so no Visual Studio and no `dumpbin`.
+
 **[terminal-toast](https://github.com/Ruminem/terminal-toast)**
 For the long build you stop watching: when a terminal command or task that took a
 while ends and the VS Code window is in the background, a Windows toast says what
@@ -30,7 +37,7 @@ back again, with overrides and base virtuals in C++.
 Neon glow for syntax highlighting that derives itself from the active theme's own
 token colours, so it works with whatever colour theme is already in use.
 
-All five are plain JavaScript with no build step and no dependencies.
+All six are plain JavaScript with no build step and no dependencies.
 
 ### Other
 
@@ -76,6 +83,12 @@ CMake File API·링커 맵·ninja 빌드 로그에 이미 있는 것을 읽음.
 링크 풀이로 같은 내용이 뜸. 내 용어는 저장소 밖에 있는 개인 사전에, 팀 용어는
 프로젝트에 같이 커밋하는 사전에 넣어 둠.
 
+**[native-toolbelt](https://github.com/Ruminem/native-toolbelt)** —
+내 PC에서만 안 도는 네이티브 빌드를 볼 때 씀. `.exe`나 `.dll`을 읽어 어떤 DLL이
+필요한지, 윈도우가 그걸 어디서 찾을지, 아예 못 찾는 게 무엇인지 알려 줌. 지연 로드
+임포트도 같이 세고, 바이너리 옆에 있지만 검색 경로 밖인 DLL은 그 경로를 적어 줌.
+목록을 PE 파일에서 직접 읽으므로 Visual Studio도 `dumpbin`도 필요 없음.
+
 **[terminal-toast](https://github.com/Ruminem/terminal-toast)** —
 오래 걸리는 빌드를 지켜보지 않고 딴 일 할 때 씀. 한참 걸린 터미널 명령이나 태스크가
 끝났는데 VS Code 창이 백그라운드면 무엇이 돌았고 얼마나 걸렸고 실패했는지를 윈도우
@@ -91,7 +104,7 @@ VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵�
 문법 강조에 네온 글로우를 입힘. 팔레트를 박아두지 않고 **지금 쓰는 테마의 토큰
 색에서 글로우를 유도**하므로 어떤 색 테마와도 맞음.
 
-다섯 다 순수 JavaScript고 빌드 단계도 의존성도 없음.
+여섯 다 순수 JavaScript고 빌드 단계도 의존성도 없음.
 
 ### 그 밖에
 
