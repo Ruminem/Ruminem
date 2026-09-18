@@ -8,9 +8,12 @@ API, the linker map and ninja's build log already hold rather than parsing
 `CMakeLists.txt`.
 
 **[hover-decode](https://github.com/Ruminem/hover-decode)**
-For the values in code and logs that mean nothing at a glance: hover over an epoch
-timestamp, a hex number, a base64 string or an HTTP status code to see what it is.
-Your own terms go in a personal dictionary that lives outside any repository.
+For the values in code and logs that mean nothing at a glance: hover over a Windows
+error code, an epoch timestamp, a duration, a hex number, a base64 string or an HTTP
+status code to see what it is. Error codes come back with Windows' own message, and the
+terminal gets the same rows through link tooltips. Your own terms go in a personal
+dictionary that lives outside any repository, your team's in one committed with the
+project.
 
 **[vscode-assist](https://github.com/Ruminem/vscode-assist)**
 Navigation shortcuts VS Code does not ship, bound to keys it does not use. The
@@ -60,9 +63,11 @@ CMake 프로젝트에서 링크 때문에 막힐 때 씀. 이 헤더를 쓰려�
 CMake File API·링커 맵·ninja 빌드 로그에 이미 있는 것을 읽음.
 
 **[hover-decode](https://github.com/Ruminem/hover-decode)** —
-코드나 로그에서 한눈에 뜻을 알 수 없는 값을 볼 때 씀. epoch 타임스탬프, 16진수,
-base64 문자열, HTTP 상태 코드에 마우스를 올리면 그게 무엇인지 보여줌. 내 용어는
-저장소 밖에 있는 개인 사전에 넣어 둠.
+코드나 로그에서 한눈에 뜻을 알 수 없는 값을 볼 때 씀. Windows 에러 코드, epoch
+타임스탬프, 기간, 16진수, base64 문자열, HTTP 상태 코드에 마우스를 올리면 그게
+무엇인지 보여줌. 에러 코드는 Windows가 가진 메시지까지 같이 보여 주고, 터미널에서는
+링크 풀이로 같은 내용이 뜸. 내 용어는 저장소 밖에 있는 개인 사전에, 팀 용어는
+프로젝트에 같이 커밋하는 사전에 넣어 둠.
 
 **[vscode-assist](https://github.com/Ruminem/vscode-assist)** —
 VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵심은 왕복 이동 —
