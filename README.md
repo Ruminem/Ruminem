@@ -15,6 +15,12 @@ terminal gets the same rows through link tooltips. Your own terms go in a person
 dictionary that lives outside any repository, your team's in one committed with the
 project.
 
+**[terminal-toast](https://github.com/Ruminem/terminal-toast)**
+For the long build you stop watching: when a terminal command or task that took a
+while ends and the VS Code window is in the background, a Windows toast says what
+ran, how long it took and whether it failed. Shell integration and the task API
+already report this, so nothing has to be wrapped or prefixed.
+
 **[vscode-assist](https://github.com/Ruminem/vscode-assist)**
 Navigation shortcuts VS Code does not ship, bound to keys it does not use. The
 main one is a round trip: `Alt+G` on a declaration goes to the definition and
@@ -24,7 +30,7 @@ back again, with overrides and base virtuals in C++.
 Neon glow for syntax highlighting that derives itself from the active theme's own
 token colours, so it works with whatever colour theme is already in use.
 
-All four are plain JavaScript with no build step and no dependencies.
+All five are plain JavaScript with no build step and no dependencies.
 
 ### Other
 
@@ -70,6 +76,12 @@ CMake File API·링커 맵·ninja 빌드 로그에 이미 있는 것을 읽음.
 링크 풀이로 같은 내용이 뜸. 내 용어는 저장소 밖에 있는 개인 사전에, 팀 용어는
 프로젝트에 같이 커밋하는 사전에 넣어 둠.
 
+**[terminal-toast](https://github.com/Ruminem/terminal-toast)** —
+오래 걸리는 빌드를 지켜보지 않고 딴 일 할 때 씀. 한참 걸린 터미널 명령이나 태스크가
+끝났는데 VS Code 창이 백그라운드면 무엇이 돌았고 얼마나 걸렸고 실패했는지를 윈도우
+토스트로 띄움. 셸 통합과 태스크 API가 이미 알려 주는 것을 읽으므로 명령을 감싸거나
+앞에 무언가 붙일 필요 없음.
+
 **[vscode-assist](https://github.com/Ruminem/vscode-assist)** —
 VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵심은 왕복 이동 —
 선언에서 `Alt+G`를 누르면 정의로, 다시 누르면 선언으로 돌아옴. C++에서는 오버라이드와
@@ -79,7 +91,7 @@ VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵�
 문법 강조에 네온 글로우를 입힘. 팔레트를 박아두지 않고 **지금 쓰는 테마의 토큰
 색에서 글로우를 유도**하므로 어떤 색 테마와도 맞음.
 
-넷 다 순수 JavaScript고 빌드 단계도 의존성도 없음.
+다섯 다 순수 JavaScript고 빌드 단계도 의존성도 없음.
 
 ### 그 밖에
 
