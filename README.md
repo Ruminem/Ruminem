@@ -18,9 +18,10 @@ project.
 **[native-toolbelt](https://github.com/Ruminem/native-toolbelt)**
 For the native build that runs on your machine and nowhere else: it reads an `.exe` or
 `.dll` and says which DLLs it needs, where Windows would find each one, and which ones
-it would not find at all. Delay-loaded imports count too, and a DLL sitting next to the
-binary but off the search path is named with its path. The list comes out of the PE file
-itself, so no Visual Studio and no `dumpbin`.
+it would not find at all, delay-loaded imports included. Paste a linker's `LNK2019` and
+it names the libraries here that define the symbol, and the architectures they were
+found under — the part a 32-bit/64-bit mismatch hides in. Both read the files
+themselves, so no Visual Studio and no `dumpbin`.
 
 **[terminal-toast](https://github.com/Ruminem/terminal-toast)**
 For the long build you stop watching: when a terminal command or task that took a
@@ -88,8 +89,9 @@ CMake File API·링커 맵·ninja 빌드 로그에 이미 있는 것을 읽음.
 **[native-toolbelt](https://github.com/Ruminem/native-toolbelt)** —
 내 PC에서만 안 도는 네이티브 빌드를 볼 때 씀. `.exe`나 `.dll`을 읽어 어떤 DLL이
 필요한지, 윈도우가 그걸 어디서 찾을지, 아예 못 찾는 게 무엇인지 알려 줌. 지연 로드
-임포트도 같이 세고, 바이너리 옆에 있지만 검색 경로 밖인 DLL은 그 경로를 적어 줌.
-목록을 PE 파일에서 직접 읽으므로 Visual Studio도 `dumpbin`도 필요 없음.
+임포트도 같이 셈. 링커가 낸 `LNK2019`를 붙여넣으면 그 심볼을 정의하는 라이브러리를 이
+PC에서 찾아 어느 아키텍처에서 나왔는지까지 알려 줌 — 32비트·64비트 불일치가 숨는
+자리임. 둘 다 파일을 직접 읽으므로 Visual Studio도 `dumpbin`도 필요 없음.
 
 **[terminal-toast](https://github.com/Ruminem/terminal-toast)** —
 오래 걸리는 빌드를 지켜보지 않고 딴 일 할 때 씀. 한참 걸린 터미널 명령이나 태스크가
