@@ -1,5 +1,9 @@
+<!-- The project lists between the start/end markers are rebuilt by build_readme.py
+     from each repository's .github/profile.md. Edit the text there, not here. -->
+
 ### VS Code extensions
 
+<!-- vscode:en:start -->
 **[cmake-link-explorer](https://github.com/Ruminem/cmake-link-explorer)**
 For the moments a CMake project stops you over linking: what to link to use a
 header, who links a given target, what is eating the binary size and the build
@@ -37,11 +41,11 @@ back again, with overrides and base virtuals in C++.
 **[vscode-neon-glow](https://github.com/Ruminem/vscode-neon-glow)**
 Neon glow for syntax highlighting that derives itself from the active theme's own
 token colours, so it works with whatever colour theme is already in use.
-
-All six are plain JavaScript with no build step and no dependencies.
+<!-- vscode:en:end -->
 
 ### Other
 
+<!-- other:en:start -->
 **[kakaotalk-theme](https://github.com/Ruminem/kakaotalk-theme)**
 KakaoTalk themes for iOS (`.ktheme`) and Android (`.apk`). Every colour lives in
 one palette table, and the CSS, `colors.xml`, images and previews are all
@@ -90,11 +94,13 @@ window into a picture-in-picture player in the video's own shape, Shorts include
 with the next video picked from a list beside it. It is YouTube's own site in a
 WebView2 window laid out for a small one, so nothing is downloaded. One `.exe` on
 the Releases page.
+<!-- other:en:end -->
 
 ---
 
 ### VS Code 익스텐션
 
+<!-- vscode:ko:start -->
 **[cmake-link-explorer](https://github.com/Ruminem/cmake-link-explorer)** —
 CMake 프로젝트에서 링크 때문에 막힐 때 씀. 이 헤더를 쓰려면 무엇을 링크해야 하는지,
 **누가 이 타겟을 링크하는지**, 바이너리 크기와 빌드 시간을 무엇이 잡아먹는지, 이
@@ -129,11 +135,11 @@ VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵�
 **[vscode-neon-glow](https://github.com/Ruminem/vscode-neon-glow)** —
 문법 강조에 네온 글로우를 입힘. 팔레트를 박아두지 않고 **지금 쓰는 테마의 토큰
 색에서 글로우를 유도**하므로 어떤 색 테마와도 맞음.
-
-여섯 다 순수 JavaScript고 빌드 단계도 의존성도 없음.
+<!-- vscode:ko:end -->
 
 ### 그 밖에
 
+<!-- other:ko:start -->
 **[kakaotalk-theme](https://github.com/Ruminem/kakaotalk-theme)** —
 iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 표 한 곳에서만
 관리하고 CSS·`colors.xml`·이미지·미리보기가 전부 거기서 생성됨. 배경과 말풍선을
@@ -173,3 +179,4 @@ iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 �
 플레이어가 되고(Shorts 포함), 다음 영상은 옆에 붙는 목록에서 고름. WebView2 창에 YouTube
 사이트를 작은 창에 맞게 띄우는 것이라 아무것도 내려받지 않음. Releases 페이지의 `.exe`
 하나.
+<!-- other:ko:end -->

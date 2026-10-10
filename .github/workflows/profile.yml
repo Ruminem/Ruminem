@@ -1,0 +1,36 @@
+# Rebuilds the project lists in README.md from each repository's .github/profile.md.
+# A push to another repository cannot start this one without a personal token, so it
+# runs daily instead; run it by hand from the Actions tab to see a change right away.
+name: profile
+
+on:
+  schedule:
+    - cron: '17 21 * * *'  # 06:17 KST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [build_readme.py, .github/workflows/profile.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 build_readme.py --test
+      - run: python3 build_readme.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git diff --quiet README.md && exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Rebuild the project lists from each repository profile' README.md
+          git push
