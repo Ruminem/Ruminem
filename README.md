@@ -11,6 +11,15 @@ time, and which macros a file is really compiled with. Reads what CMake's File
 API, the linker map and ninja's build log already hold rather than parsing
 `CMakeLists.txt`.
 
+**[vscode-neon-glow](https://github.com/Ruminem/vscode-neon-glow)**
+Neon glow for syntax highlighting that derives itself from the active theme's own
+token colours, so it works with whatever colour theme is already in use.
+
+**[vscode-assist](https://github.com/Ruminem/vscode-assist)**
+Navigation shortcuts VS Code does not ship, bound to keys it does not use. The
+main one is a round trip: `Alt+G` on a declaration goes to the definition and
+back again, with overrides and base virtuals in C++.
+
 **[hover-decode](https://github.com/Ruminem/hover-decode)**
 For the values in code and logs that mean nothing at a glance: hover over a Windows
 error code, an epoch timestamp, a duration, a hex number, a base64 string or an HTTP
@@ -19,6 +28,12 @@ terminal gets the same rows through link tooltips. Your own terms go in a person
 dictionary that lives outside any repository, your team's in one committed with the
 project.
 
+**[terminal-toast](https://github.com/Ruminem/terminal-toast)**
+For the long build you stop watching: when a terminal command or task that took a
+while ends and the VS Code window is in the background, a Windows toast says what
+ran, how long it took and whether it failed. Shell integration and the task API
+already report this, so nothing has to be wrapped or prefixed.
+
 **[native-toolbelt](https://github.com/Ruminem/native-toolbelt)**
 For the native build that runs on your machine and nowhere else: it reads an `.exe` or
 `.dll` and says which DLLs it needs, where Windows would find each one, and which ones
@@ -26,21 +41,6 @@ it would not find at all, delay-loaded imports included. Paste a linker's `LNK20
 it names the libraries here that define the symbol, and the architectures they were
 found under — the part a 32-bit/64-bit mismatch hides in. Both read the files
 themselves, so no Visual Studio and no `dumpbin`.
-
-**[terminal-toast](https://github.com/Ruminem/terminal-toast)**
-For the long build you stop watching: when a terminal command or task that took a
-while ends and the VS Code window is in the background, a Windows toast says what
-ran, how long it took and whether it failed. Shell integration and the task API
-already report this, so nothing has to be wrapped or prefixed.
-
-**[vscode-assist](https://github.com/Ruminem/vscode-assist)**
-Navigation shortcuts VS Code does not ship, bound to keys it does not use. The
-main one is a round trip: `Alt+G` on a declaration goes to the definition and
-back again, with overrides and base virtuals in C++.
-
-**[vscode-neon-glow](https://github.com/Ruminem/vscode-neon-glow)**
-Neon glow for syntax highlighting that derives itself from the active theme's own
-token colours, so it works with whatever colour theme is already in use.
 <!-- vscode:en:end -->
 
 ### Other
@@ -107,6 +107,15 @@ CMake 프로젝트에서 링크 때문에 막힐 때 씀. 이 헤더를 쓰려�
 파일이 실제로 어떤 매크로로 컴파일되는지 보여줌. `CMakeLists.txt`를 파싱하지 않고
 CMake File API·링커 맵·ninja 빌드 로그에 이미 있는 것을 읽음.
 
+**[vscode-neon-glow](https://github.com/Ruminem/vscode-neon-glow)** —
+문법 강조에 네온 글로우를 입힘. 팔레트를 박아두지 않고 **지금 쓰는 테마의 토큰
+색에서 글로우를 유도**하므로 어떤 색 테마와도 맞음.
+
+**[vscode-assist](https://github.com/Ruminem/vscode-assist)** —
+VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵심은 왕복 이동 —
+선언에서 `Alt+G`를 누르면 정의로, 다시 누르면 선언으로 돌아옴. C++에서는 오버라이드와
+베이스 가상 함수까지 챙김.
+
 **[hover-decode](https://github.com/Ruminem/hover-decode)** —
 코드나 로그에서 한눈에 뜻을 알 수 없는 값을 볼 때 씀. Windows 에러 코드, epoch
 타임스탬프, 기간, 16진수, base64 문자열, HTTP 상태 코드에 마우스를 올리면 그게
@@ -114,27 +123,18 @@ CMake File API·링커 맵·ninja 빌드 로그에 이미 있는 것을 읽음.
 링크 풀이로 같은 내용이 뜸. 내 용어는 저장소 밖에 있는 개인 사전에, 팀 용어는
 프로젝트에 같이 커밋하는 사전에 넣어 둠.
 
-**[native-toolbelt](https://github.com/Ruminem/native-toolbelt)** —
-내 PC에서만 안 도는 네이티브 빌드를 볼 때 씀. `.exe`나 `.dll`을 읽어 어떤 DLL이
-필요한지, 윈도우가 그걸 어디서 찾을지, 아예 못 찾는 게 무엇인지 알려 줌. 지연 로드
-임포트도 같이 셈. 링커가 낸 `LNK2019`를 붙여넣으면 그 심볼을 정의하는 라이브러리를 이
-PC에서 찾아 어느 아키텍처에서 나왔는지까지 알려 줌 — 32비트·64비트 불일치가 숨는
-자리임. 둘 다 파일을 직접 읽으므로 Visual Studio도 `dumpbin`도 필요 없음.
-
 **[terminal-toast](https://github.com/Ruminem/terminal-toast)** —
 오래 걸리는 빌드를 지켜보지 않고 딴 일 할 때 씀. 한참 걸린 터미널 명령이나 태스크가
 끝났는데 VS Code 창이 백그라운드면 무엇이 돌았고 얼마나 걸렸고 실패했는지를 윈도우
 토스트로 띄움. 셸 통합과 태스크 API가 이미 알려 주는 것을 읽으므로 명령을 감싸거나
 앞에 무언가 붙일 필요 없음.
 
-**[vscode-assist](https://github.com/Ruminem/vscode-assist)** —
-VS Code에 없는 탐색 단축키를 VS Code가 안 쓰는 키에 묶음. 핵심은 왕복 이동 —
-선언에서 `Alt+G`를 누르면 정의로, 다시 누르면 선언으로 돌아옴. C++에서는 오버라이드와
-베이스 가상 함수까지 챙김.
-
-**[vscode-neon-glow](https://github.com/Ruminem/vscode-neon-glow)** —
-문법 강조에 네온 글로우를 입힘. 팔레트를 박아두지 않고 **지금 쓰는 테마의 토큰
-색에서 글로우를 유도**하므로 어떤 색 테마와도 맞음.
+**[native-toolbelt](https://github.com/Ruminem/native-toolbelt)** —
+내 PC에서만 안 도는 네이티브 빌드를 볼 때 씀. `.exe`나 `.dll`을 읽어 어떤 DLL이
+필요한지, 윈도우가 그걸 어디서 찾을지, 아예 못 찾는 게 무엇인지 알려 줌. 지연 로드
+임포트도 같이 셈. 링커가 낸 `LNK2019`를 붙여넣으면 그 심볼을 정의하는 라이브러리를 이
+PC에서 찾아 어느 아키텍처에서 나왔는지까지 알려 줌 — 32비트·64비트 불일치가 숨는
+자리임. 둘 다 파일을 직접 읽으므로 Visual Studio도 `dumpbin`도 필요 없음.
 <!-- vscode:ko:end -->
 
 ### 그 밖에
