@@ -77,6 +77,13 @@ for personal and commercial use, how it connects to Claude, and its license.
 Read it as one [wiki-style page](https://ruminem.github.io/ai-crew-atlas/) with
 a table of contents that follows your scroll.
 
+**[playroom](https://github.com/Ruminem/playroom)**
+Small desktop toys that sit over your work without getting in the way, on Windows
+and macOS: Claude Code usage limits as a retro game HUD, weather and pixel animals
+drawn over every window while clicks pass straight through, and CPU and memory on
+the taskbar. One launcher runs them all, and each comes as a standalone `.exe` on
+the Releases page. Python standard library only.
+
 ---
 
 ### VS Code 익스텐션
@@ -147,3 +154,9 @@ iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 �
 클로드가 혼자서는 못 하는 일을 메우는 서비스의 사전임. 도구마다 등급별 요금, 무료 등급을
 개인·상업적으로 어디까지 쓸 수 있는지, 클로드와 잇는 법, 라이선스를 적음. 스크롤을
 따라가는 목차가 달린 [위키 꼴 페이지](https://ruminem.github.io/ai-crew-atlas/)로 읽을 수 있음.
+
+**[playroom](https://github.com/Ruminem/playroom)** —
+작업 화면 위에 띄워 두되 일은 안 막는 윈도우·맥용 데스크톱 장난감 모음. Claude Code 사용 한도를
+레트로 게임 HUD 로 보여 주고, 클릭은 그대로 통과시키면서 모든 창 위로 날씨와 픽셀 동물을 띄우고,
+작업 표시줄에 CPU·메모리를 띄움. 런처 하나로 전부 켜고 끄고, 도구마다 Releases 페이지에서 따로
+받는 `.exe` 가 있음. Python 표준 라이브러리만 씀.
