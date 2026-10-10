@@ -84,6 +84,13 @@ drawn over every window while clicks pass straight through, and CPU and memory o
 the taskbar. One launcher runs them all, and each comes as a standalone `.exe` on
 the Releases page. Python standard library only.
 
+**[yt-pip](https://github.com/Ruminem/yt-pip)**
+For keeping a YouTube video on screen while you work: picking a video turns the
+window into a picture-in-picture player in the video's own shape, Shorts included,
+with the next video picked from a list beside it. It is YouTube's own site in a
+WebView2 window laid out for a small one, so nothing is downloaded. One `.exe` on
+the Releases page.
+
 ---
 
 ### VS Code 익스텐션
@@ -160,3 +167,9 @@ iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 �
 레트로 게임 HUD 로 보여 주고, 클릭은 그대로 통과시키면서 모든 창 위로 날씨와 픽셀 동물을 띄우고,
 작업 표시줄에 CPU·메모리를 띄움. 런처 하나로 전부 켜고 끄고, 도구마다 Releases 페이지에서 따로
 받는 `.exe` 가 있음. Python 표준 라이브러리만 씀.
+
+**[yt-pip](https://github.com/Ruminem/yt-pip)** —
+작업하면서 YouTube 영상을 띄워 둘 때 씀. 영상을 고르면 창이 영상 모양 그대로의 PIP
+플레이어가 되고(Shorts 포함), 다음 영상은 옆에 붙는 목록에서 고름. WebView2 창에 YouTube
+사이트를 작은 창에 맞게 띄우는 것이라 아무것도 내려받지 않음. Releases 페이지의 `.exe`
+하나.
