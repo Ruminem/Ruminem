@@ -96,7 +96,8 @@ WebView2 window laid out for a small one, so nothing is downloaded. One `.exe` o
 the Releases page.
 <!-- other:en:end -->
 
----
+<details>
+<summary>한국어로 보기</summary>
 
 ### VS Code 익스텐션
 
@@ -180,3 +181,5 @@ iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 �
 사이트를 작은 창에 맞게 띄우는 것이라 아무것도 내려받지 않음. Releases 페이지의 `.exe`
 하나.
 <!-- other:ko:end -->
+
+</details>
