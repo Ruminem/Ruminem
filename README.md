@@ -94,6 +94,9 @@ window into a picture-in-picture player in the video's own shape, Shorts include
 with the next video picked from a list beside it. It is YouTube's own site in a
 WebView2 window laid out for a small one, so nothing is downloaded. One `.exe` on
 the Releases page.
+
+**[codex-harness](https://github.com/Ruminem/codex-harness)**
+A short `AGENTS.md` for running Codex CLI on a time-boxed coding task, where the process (conversation, git log, diff, tests) is reviewed along with the result.
 <!-- other:en:end -->
 
 <details>
@@ -180,6 +183,9 @@ iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 �
 플레이어가 되고(Shorts 포함), 다음 영상은 옆에 붙는 목록에서 고름. WebView2 창에 YouTube
 사이트를 작은 창에 맞게 띄우는 것이라 아무것도 내려받지 않음. Releases 페이지의 `.exe`
 하나.
+
+**[codex-harness](https://github.com/Ruminem/codex-harness)** —
+A short `AGENTS.md` for running Codex CLI on a time-boxed coding task, where the process (conversation, git log, diff, tests) is reviewed along with the result.
 <!-- other:ko:end -->
 
 </details>
