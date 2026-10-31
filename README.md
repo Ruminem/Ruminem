@@ -96,7 +96,7 @@ WebView2 window laid out for a small one, so nothing is downloaded. One `.exe` o
 the Releases page.
 
 **[codex-harness](https://github.com/Ruminem/codex-harness)**
-A short `AGENTS.md` for running Codex CLI on a time-boxed coding task, where the process (conversation, git log, diff, tests) is reviewed along with the result.
+**In short**
 <!-- other:en:end -->
 
 <details>
@@ -185,7 +185,7 @@ iOS(`.ktheme`)·안드로이드(`.apk`) 카카오톡 테마. 색은 팔레트 �
 하나.
 
 **[codex-harness](https://github.com/Ruminem/codex-harness)** —
-A short `AGENTS.md` for running Codex CLI on a time-boxed coding task, where the process (conversation, git log, diff, tests) is reviewed along with the result.
+**In short**
 <!-- other:ko:end -->
 
 </details>
